@@ -6,7 +6,6 @@
 - Java version 8 or higher
 
 ## How to Run
-- pindah ke direktori hasil clone repository ini
 - jalankan hadoop env dengan command  `docker-compose up -d`
 - matikan hadoop env dengan command  `docker-compose down`
 
