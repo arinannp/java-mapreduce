@@ -23,9 +23,9 @@
 
 ## Checking Output Data
 - cek output dari MapReduce program dengan command `hadoop fs -ls /output_covid`
-![Sample Output](./images/out_list.png)
+####![Sample Output](./images/out_list.png)
 - menampilkan isi output file dengan command `hadoop fs -cat /output_covid/part-00000`
-![Sample Output](./images/out.png)
+####![Sample Output](./images/out.png)
 - menyimpan hasil output ke local system dengan command `hadoop fs -cat /output_covid/part-00000 > aggr_deaths_per_day`
 
 ## Sample Output
